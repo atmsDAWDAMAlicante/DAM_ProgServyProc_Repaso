@@ -1,36 +1,48 @@
 package Desayuno;
 
 public class Desayuno03conHilos_03Lambda {
-
-
     public static void main(String[] args) {
-        // 1º paso crear una ¿instancia? de Runnable
-        // NOOOO No se crea ninguna instancia de una interfaz
-        //  Java entiende que se está creando una clase anónima que se instancia (la clase, no la interfaz)
 
+    // Lamda: para que los métodos reciban métodos por parámetros
+    // un lambda no tiene un nombre y se puede definir donde sea necesario
+    // Se usa lambda para llamar a un método que recibe como parámetro un
+    // objeto que implementa una interfaz
 
-        Runnable r = new Runnable() {
-            @Override
-            public void run() { // se rescribe el método run
-                // Aquí se introduce el código de
-                // dentro del bloque try-catch
-                try {
-                    System.out.println("Cafetera: Peparar café:");
-                    Thread.sleep(1000);
-                    System.out.println("Cafetera: Calentando el café");
-                    Thread.sleep(1000);
-                    System.out.println("Cafetera: Se sale el café");
-                    Thread.sleep(1000);
-                    System.out.println("Cafetera: Sirvo el café");
-                } catch (InterruptedException e) {
-                    System.out.println("Interrupcion");
-                }
-            } // CIERRE MÉTODO RUN()
-        }; // hay que cerrar el runnable - CIERRE INTERFAZ
+    // En el ejemplo la clase Thread recibe por parámetro un objeto
+    // que implementa la interfaz runnable
 
-        // En este bloque se crean los hilos
-        Thread tCafe = new Thread(r);
+        // SÓLO SE PODRÁ IMPLEMENTAR UN LAMBDA CUANDO LA INTERFAZ SÓLO
+        // TENGA UN MÉTODO
+        // REPETIMOS: SÓLO SE PODRÁ IMPLEMENTAR UN LAMBDA CUANDO LA INTERFAZ SÓLO
+        // TENGA UN MÉTODO
+
+        // Creación del hilo con un lambda que irá donde está la r
+        // Thread tCafe = new Thread(r);
+        // Será así
+        // Thread tCafe = new Thread(()-> ..... );
+        Thread tCafe = new Thread (()-> // es con un guión
+                {
+                    // AQUÍ VENDRÁ EL CÓDIGO DEL MÉTODO RUN()
+                    // EL CÓDIGO DE DENTRO DEL MÉTODO RUN
+
+                    try {
+                        System.out.println("Cafetera: Peparar café:");
+                        Thread.sleep(1000);
+                        System.out.println("Cafetera: Calentando el café");
+                        Thread.sleep(1000);
+                        System.out.println("Cafetera: Se sale el café");
+                        Thread.sleep(1000);
+                        System.out.println("Cafetera: Sirvo el café");
+                    } catch (InterruptedException e) {
+                        System.out.println("Interrupcion");
+                    }
+
+                });
         tCafe.start();
+
+
+        // En este bloque se crea el segundo hilo
+
         Thread tTostadas = new Thread(new Tostadora0303());
         tTostadas.start();
 
