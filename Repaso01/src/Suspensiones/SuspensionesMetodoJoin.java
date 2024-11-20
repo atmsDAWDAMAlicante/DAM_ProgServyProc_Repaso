@@ -3,7 +3,7 @@ package Suspensiones;
 import java.util.Random;
 
 public class SuspensionesMetodoJoin {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         System.out.println("Suspensiones - método join()");
         // Hilo que cuenta de 0 a 9
 
@@ -20,11 +20,13 @@ public class SuspensionesMetodoJoin {
             }
         });
         t.start();
+        t.join(); // LLAMADA BLOQUEANTE
 
         // Espera a que finalice el hilo ejemplo primitivo
-        while(t.isAlive()){
+       /* while(t.isAlive()){
 
-        }
+        }*/
+
 
         System.out.println("El hilo ha finalizado");
 
