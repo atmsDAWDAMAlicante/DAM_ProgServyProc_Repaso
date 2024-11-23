@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\angel\\source\\repos\\DAM_Prog_Serv_y_Procesos\\DAM_ProgServyProc_Repaso\\CSharp\\Repaso02\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6AA71802-C71F-4B70-9339-FCD8BF04A7F6}|Repaso02\\Repaso02.csproj|c:\\users\\angel\\source\\repos\\dam_prog_serv_y_procesos\\dam_progservyproc_repaso\\csharp\\repaso02\\repaso02\\cafetera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AA71802-C71F-4B70-9339-FCD8BF04A7F6}|Repaso02\\Repaso02.csproj|solutionrelative:repaso02\\cafetera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AA71802-C71F-4B70-9339-FCD8BF04A7F6}|Repaso02\\Repaso02.csproj|c:\\users\\angel\\source\\repos\\dam_prog_serv_y_procesos\\dam_progservyproc_repaso\\csharp\\repaso02\\repaso02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AA71802-C71F-4B70-9339-FCD8BF04A7F6}|Repaso02\\Repaso02.csproj|solutionrelative:repaso02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cafetera.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\DAM_Prog_Serv_y_Procesos\\DAM_ProgServyProc_Repaso\\CSharp\\Repaso02\\Repaso02\\Cafetera.cs",
+              "RelativeDocumentMoniker": "Repaso02\\Cafetera.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\DAM_Prog_Serv_y_Procesos\\DAM_ProgServyProc_Repaso\\CSharp\\Repaso02\\Repaso02\\Cafetera.cs",
+              "RelativeToolTip": "Repaso02\\Cafetera.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA6wAsAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T17:28:30.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\DAM_Prog_Serv_y_Procesos\\DAM_ProgServyProc_Repaso\\CSharp\\Repaso02\\Repaso02\\Program.cs",
+              "RelativeDocumentMoniker": "Repaso02\\Program.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\DAM_Prog_Serv_y_Procesos\\DAM_ProgServyProc_Repaso\\CSharp\\Repaso02\\Repaso02\\Program.cs",
+              "RelativeToolTip": "Repaso02\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T17:08:13.108Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

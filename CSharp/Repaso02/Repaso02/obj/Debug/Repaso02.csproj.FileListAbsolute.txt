@@ -1,0 +1,7 @@
+C:\Users\angel\source\repos\DAM_Prog_Serv_y_Procesos\DAM_ProgServyProc_Repaso\CSharp\Repaso02\Repaso02\bin\Debug\Repaso02.exe.config
+C:\Users\angel\source\repos\DAM_Prog_Serv_y_Procesos\DAM_ProgServyProc_Repaso\CSharp\Repaso02\Repaso02\bin\Debug\Repaso02.exe
+C:\Users\angel\source\repos\DAM_Prog_Serv_y_Procesos\DAM_ProgServyProc_Repaso\CSharp\Repaso02\Repaso02\bin\Debug\Repaso02.pdb
+C:\Users\angel\source\repos\DAM_Prog_Serv_y_Procesos\DAM_ProgServyProc_Repaso\CSharp\Repaso02\Repaso02\obj\Debug\Repaso02.csproj.AssemblyReference.cache
+C:\Users\angel\source\repos\DAM_Prog_Serv_y_Procesos\DAM_ProgServyProc_Repaso\CSharp\Repaso02\Repaso02\obj\Debug\Repaso02.csproj.CoreCompileInputs.cache
+C:\Users\angel\source\repos\DAM_Prog_Serv_y_Procesos\DAM_ProgServyProc_Repaso\CSharp\Repaso02\Repaso02\obj\Debug\Repaso02.exe
+C:\Users\angel\source\repos\DAM_Prog_Serv_y_Procesos\DAM_ProgServyProc_Repaso\CSharp\Repaso02\Repaso02\obj\Debug\Repaso02.pdb
