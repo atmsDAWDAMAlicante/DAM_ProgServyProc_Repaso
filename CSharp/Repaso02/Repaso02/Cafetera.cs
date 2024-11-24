@@ -9,7 +9,7 @@ namespace Repaso02
 	class Cafetera
 		{
 		public static int espera = 2000;
-		static async Task Main(string[] args) // await se ejecuta dentro de un método async EL MAIN
+		static async Task Main3(string[] args) // await se ejecuta dentro de un método async EL MAIN
 			{
 			// PARA HACER UN AWAIT EL MÉTODO TIENE QUE DEVOLVER UN TASK
 			Task tCafe = PrepararCafe();
